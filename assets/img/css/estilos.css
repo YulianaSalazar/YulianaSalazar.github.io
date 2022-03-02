@@ -2,7 +2,8 @@
 
 
 h1 {
-    color: pink
+    color: pink;
+    font-size:20px;
 }
 .titulo {
     color:aqua
@@ -13,4 +14,70 @@ h1 {
 
 .titulo {
     font-family:'Hubballi', cursive;
+    font-size:50px;
+    font-style:italic;
+    font-weight:900 ;
+    text-align:center;
+    text-transform:capitalize;
+    text-shadow: pink 4px 4px 4px;
+}
+.parrafo{
+    font-family:'Hubballi', cursive;
+    background-color:pink;
+    width:200px;
+    margin:1rem auto;
+    font-size:15px;
+    
+}
+
+.negrita{
+    font-weight:bold;
+}
+img{
+    max-width: 100%;
+    border:5px dotted palevioletred;
+
+}
+.borde{
+    border-left:2px solid rgb(202, 152, 248);
+    border-right:5px dotted rgb(96, 198, 230);
+    border-top: 8px double rgb(202, 255, 122);
+    border-bottom:4px dashed rgb(255, 130, 197) ;
+    border-radius:10px ;
+}
+
+.espaciado{
+    padding:2rem 1rem 3rem 4rem;
+}
+.margen{
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+#None{
+    text-decoration: none;
+}
+#Underline{
+    text-decoration: underline;
+}
+#Overline{
+    text-decoration: Overline;
+}
+#Line-through{
+    text-decoration:line-through;
+}
+
+#word-spacing{
+    word-spacing:50rem;
+}
+
+img{
+    width:200px;
+    max-width:100; 
 }
