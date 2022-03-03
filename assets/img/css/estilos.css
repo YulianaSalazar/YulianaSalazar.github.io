@@ -27,6 +27,7 @@ h1 {
     width:200px;
     margin:1rem auto;
     font-size:15px;
+
     
 }
 
@@ -43,7 +44,7 @@ img{
     border-right:5px dotted rgb(96, 198, 230);
     border-top: 8px double rgb(202, 255, 122);
     border-bottom:4px dashed rgb(255, 130, 197) ;
-    border-radius:10px ;
+    border-radius:10% / 50% ;
 }
 
 .espaciado{
@@ -53,6 +54,36 @@ img{
     margin-left: 25%;
 }
 
+.bordes{
+   border:solid blueviolet;
+   word-spacing:normal;
+    border-radius: 25% 10%;
+    padding:2rem;
+}
+
+.ejemplo2{
+    border:solid pink;
+    word-spacing:normal;
+    border-radius:30px;
+    padding:2rem;
+    margin:1rem;
+}
+
+.ejemplo3{
+    border:solid rgb(28, 234, 241);
+    word-spacing:normal;
+    border-radius:10% / 50%;
+    padding:2rem;
+    margin:1rem;
+}
+
+.ejemplo4{
+    border:solid rgb(42, 206, 42);
+    word-spacing:normal;
+    border-radius:10% 30% 50% 70%;
+    padding:2rem;
+    margin:1rem;
+}
 
 
 
