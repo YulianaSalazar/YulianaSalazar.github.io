@@ -11,11 +11,13 @@ header{
     font-weight:bold;
     align-items:flex-end;
 }
+
+
 #nombre{
     width: 300px;
     height:20px;
     padding:10px;
-    margin-left: 29rem;
+    margin-left: 24rem;
     text-align:center;
 }
 #contenido{
